@@ -11,10 +11,10 @@ const MainContainer = () => {
       className="[&>p]:px-10 [&>p]:py-4 py-8 flex justify-center text-left flex-col w-[100%] max-w-[600px] mx-auto text-[#CCD6F6] scroll-mt-20">
       <div className="flex justify-center flex-col space-x-4 text-center sm:flex-row ">
         <div className="flex justify-center flex-col">
-          <h1 className="text-xl">{t("nombre")}</h1>
-          <p className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black pt-4">
+          <p className="text-xl">{t("nombre")}</p>
+          <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black pt-4">
             JOAN TOMÁS
-          </p>
+          </h1>
           <p className="text-xl pt-4 ">{t("nombre2")}</p>
         </div>
         <div className="flex items-center justify-center m-4">
@@ -26,6 +26,7 @@ const MainContainer = () => {
               Alcora, España
             </p>
             <img
+              loading="lazy"
               className="rounded-full object-cover object-center w-[250px] h-[250px] mx-auto shadow-xl shadow-[#8993b029] border-4 border-[#CCD6F6] hover:opacity-30 transition-all duration-300 z-10"
               src="large-joan.webp"
               alt="Imagen de perfil Joan Tomás"
@@ -40,7 +41,7 @@ const MainContainer = () => {
         {t("descripcion2")}
       </p>
       <div className="text-sm b-2 flex flex-col justify-center text-center p-6 m-4 rounded-md bg-[#1E2936] my-6 shadow-lg shadow-[#8993b029] hover:bg-[#283646] transition-all duration-300">
-        <h3 className="p-2 text-base">{t("tecnologias")}</h3>
+        <h2 className="p-2 text-base">{t("tecnologias")}</h2>
         <ul className="grid grid-cols-3 md:grid-cols-6 gap-4 [&>li>a>img]:p-4 [&>li>a>img]:w-20">
           {logos.map((logo, index) => (
             <li
@@ -51,6 +52,7 @@ const MainContainer = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
+                  loading="lazy"
                   src={logo.src}
                   alt={logo.alt}
                   title={logo.title}

@@ -18,9 +18,10 @@
   "gestorDePaginas": "Gestor de Paginas",
   "descricionPaginas": "Esta extensión de Chrome te permite organizar y guardar conjuntos de ventanas y pestañas abiertas para acceder a ellas fácilmente en el futuro. Simplifica la gestión y mejora tu productividad en la navegación web.",
   "descricionWebJoan": "Pagina web personal de Joan Tomás creada para mostrar sus trabajos y su trayectoria laboral y academica.",
+  "descricionNoticiasAI": "Pagina web de Noticias sobre inteligencia artificial y tecnologia creada con Wordpress y Elementor.",
   "nombreForm": "Nombre",
   "mensajeForm": "Mensaje",
-
   "contactoFinal": "CONTACTO",
-  "descripcionContacto": "Contacta conmigo a traves del formulario o cualquier red social!"
+  "descripcionContacto": "Contacta conmigo a traves del formulario o cualquier red social!",
+  "mensajeCorrecto": "Mensaje enviado correctamente!"
 }

@@ -54,9 +54,9 @@ const TarjetaProyectos = ({
         <h2 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-2xl font-black pb-4 text-center md:text-left">
           {nameProject}
         </h2>
-        <p className="text-xs py-2 text-[#CCD6F6]">{description}</p>
+        <p className="text-sm py-2 text-[#CCD6F6]">{description}</p>
         <p className="text-sm py-2 text-[#CCD6F6]"></p>
-        <div className="flex flex-wrap justify-center [&>*]:my-2 [&>*]:rounded-full [&>*]:bg-[#9CA7C6] md:[&>*]:text-xs [&>*]:text-[10px]">
+        <div className="flex flex-wrap justify-center [&>*]:my-2 [&>*]:rounded-full [&>*]:text-[#0B182F] [&>*]:bg-[#CCD6F6] md:[&>*]:text-xs [&>*]:text-[10px]">
           {tecnologias.map((tecnologia, index) => (
             <Insignia
               tecnologia={tecnologia}
@@ -76,7 +76,7 @@ const TarjetaProyectos = ({
         />
         <img
           loading="lazy"
-          className="w-[500px] h-auto rounded-xl shadow-lg	"
+          className="w-auto h-auto rounded-xl shadow-lg	"
           src={img}
           alt="Imagen del proyecto de Tesla web"
         />
@@ -84,12 +84,12 @@ const TarjetaProyectos = ({
           <a
             href={enlace}
             target="_blank">
-            <button className="bg-[#9ca7c6] text-white px-1 py-1 md:px-2 md:py-2 rounded-md shadow-lg hover:shadow-2xl hover:bg-[#0B182F] transition-all duration-300">
+            <button className="bg-[#9ca7c6] text-white px-1 py-1 md:px-2 md:py-2 rounded-md shadow-md	 hover:bg-[#0B182F] transition-all duration-300">
               Live Demo
             </button>
           </a>
           <a
-            className=" group bg-[#9ca7c6] text-white px-1 py-1 md:px-2 md:py-2 rounded-md shadow-lg hover:shadow-2xl hover:bg-[#0B182F] transition-all duration-300"
+            className=" group bg-[#9ca7c6] text-white px-1 py-1 md:px-2 md:py-2 rounded-md shadow-md  hover:bg-[#0B182F] transition-all duration-300"
             href={github}
             target="_blank">
             <img

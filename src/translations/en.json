@@ -18,8 +18,10 @@
   "gestorDePaginas": "Page Manager",
   "descricionPaginas": "This Chrome extension allows you to organize and save sets of open windows and tabs for easy access in the future. Simplify management and improve your productivity when browsing the web.",
   "descricionWebJoan": "Joan Tomás' personal web page created to show his work and his professional and academic career.",
+  "descricionNoticiasAI": "News website about artificial intelligence and technology created with Wordpress and Elementor.",
   "nombreForm": "Name",
   "mensajeForm": "Message",
   "contactoFinal": "CONTACT",
-  "descripcionContacto": "Contact me through the form or any social network!"
+  "descripcionContacto": "Contact me through the form or any social network!",
+  "mensajeCorrecto": "Mensaje enviado correctamente!"
 }
