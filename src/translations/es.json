@@ -1,0 +1,26 @@
+{
+  "inicio": "Inicio",
+  "proyectos": "Proyectos",
+  "contacto": "Contacto",
+  "nombre": "Hola, mi nombre es",
+  "nombre2": "y soy desarrollador web.",
+  "descripcion": "Vivo en Alcora, España, tengo 28 años y soy un apasionado de la informática y la programación, con experiencia previa como fotógrafo y videógrafo autónomo. Mi interés por las nuevas tecnologías y su impacto en nuestras vidas me llevó a adentrarme en el mundo de la programación web.",
+  "descripcion2": "Aprendí de forma autodidacta y con cursos, tanto reglados como online, y adquirí las habilidades necesarias para convertirme en un desarrollador web completo. Creo en la importancia de la educación continua y me esfuerzo por mantenerme actualizado en las últimas tendencias y tecnologías del desarrollo web.",
+  "tecnologias": "Tecnologias con las que he trabajado:",
+  "tituloProyectos": "PROYECTOS",
+  "descripcionTesla": "Creacion de la pagina web de Tesla, intentado replicarla con todas las funcionalidades y efectos visuales y estilos.",
+  "descripcionPassword": "Creacion de una pagina web para validar contraseñas, con contador de caracteres, numeros, caracteres especiales y letras mayusculas, tambien con botones para copiar el texto y esconderlo.",
+  "caluladorainteres": "Calculadora interés compuesto",
+  "descripcionInteres": "Creacion de una calculadora para calcular el interes dada una rentablidad, una catidad de dinero invertido y una cantidad de años, con un grafico visual y una tabla con el desglose anual.",
+  "descripcionPi": "Pagina web diseñada a medida para la productora de fotografia y video Pi Photography27 de Alcora,España.Con la finalidad de mostrar sus trabajos realizados y sus proyectos en la web.",
+  "wikipediaPaises": "Wikipedia de Países",
+  "descripcionPaises": "Web estilo Wikipedia para buscar cualquier pais del mundo y mostrar sus datos, como capital, continente, idioma, moneda, etc.",
+  "gestorDePaginas": "Gestor de Paginas",
+  "descricionPaginas": "Esta extensión de Chrome te permite organizar y guardar conjuntos de ventanas y pestañas abiertas para acceder a ellas fácilmente en el futuro. Simplifica la gestión y mejora tu productividad en la navegación web.",
+  "descricionWebJoan": "Pagina web personal de Joan Tomás creada para mostrar sus trabajos y su trayectoria laboral y academica.",
+  "nombreForm": "Nombre",
+  "mensajeForm": "Mensaje",
+
+  "contactoFinal": "CONTACTO",
+  "descripcionContacto": "Contacta conmigo a traves del formulario o cualquier red social!"
+}
