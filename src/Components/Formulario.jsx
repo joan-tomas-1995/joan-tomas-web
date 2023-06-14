@@ -48,19 +48,19 @@ const Formulario = () => {
       className="flex flex-col items-center justify-center [&>input]:rounded-md [&>label]:my-2 [&>input]:p-2 [&>textarea]:p-2 [&>input]:bg-[#CCD6F6] [&>input]:text-[#0B182F]"
       ref={form}
       onSubmit={sendEmail}>
-      <label for="name">{t("nombreForm")}</label>
+      <label htmlFor="name">{t("nombreForm")}</label>
       <input
         id="name"
         type="text"
         name="user_name"
       />
-      <label for="name">Email</label>
+      <label htmlFor="name">Email</label>
       <input
         id="email"
         type="email"
         name="user_email"
       />
-      <label for="message">{t("mensajeForm")}</label>
+      <label htmlFor="message">{t("mensajeForm")}</label>
       <textarea
         id="message"
         name="message"

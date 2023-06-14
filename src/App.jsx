@@ -4,6 +4,7 @@ import Proyectos from "./Components/Proyectos";
 import Footer from "./Components/Footer";
 import Contacto from "./Components/Contacto";
 import ScrollToTop from "./Components/ScrollToTop";
+import ButtonCV from "./Components/ButtonCV";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <MainContainer />
       <Proyectos />
+      <ButtonCV />
       <Contacto />
       <Footer />
       <ScrollToTop />
