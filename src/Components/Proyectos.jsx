@@ -4,13 +4,22 @@ import { useTranslation } from "react-i18next";
 
 const projects = [
   {
-    name: "Tesla Web",
-    descriptionKey: "descripcionTesla",
-    techStack: "HTML CSS JavaScript React Astro Builder",
-    img: "tesla-web.webp",
-    link: "https://tesla-web-test.vercel.app/",
-    github: "https://github.com/joan-tomas-1995/tesla-web-test",
-    tecnologias: ["HTML", "CSS", "JavaScript", "Astro Builder"],
+    nameKey: "Ver Precio Luz Hora",
+    descriptionKey: "descricionVerPrecioLuzHora",
+    techStack: "HTML CSS JavaScript React Tailwind",
+    img: "verprecioluzhora.png",
+    link: "https://verprecioluzhora.es/",
+    github: "https://github.com/joan-tomas-1995/precio-luz-hora-app",
+    tecnologias: ["HTML", "CSS", "JavaScript", "React", "Red Electrica Española API"],
+  },
+  {
+    nameKey: "Radio Lofi Music",
+    descriptionKey: "radiolofimusic",
+    techStack: "HTML CSS JavaScript React Tailwind",
+    img: "lofiradiomusic.png",
+    link: "https://lofimusicradio.com/",
+    github: "https://github.com/joan-tomas-1995/lofi-radio",
+    tecnologias: ["HTML", "CSS", "JavaScript", "React", "Youtube API"],
   },
   {
     name: "Password Checker",
@@ -58,13 +67,22 @@ const projects = [
     tecnologias: ["HTML", "CSS", "JavaScript", "Chrome API"],
   },
   {
+    name: "Tesla Web",
+    descriptionKey: "descripcionTesla",
+    techStack: "HTML CSS JavaScript React Astro Builder",
+    img: "tesla-web.webp",
+    link: "https://tesla-web-test.vercel.app/",
+    github: "https://github.com/joan-tomas-1995/tesla-web-test",
+    tecnologias: ["HTML", "CSS", "JavaScript", "Astro Builder"],
+  },
+  {
     nameKey: "Web Joan Tomás",
     descriptionKey: "descricionWebJoan",
     techStack: "HTML CSS JavaScript React Tailwind",
     img: "joan-web-personal.webp",
     link: "https://joantomasmiralles.es/",
     github: "https://github.com/joan-tomas-1995/joan-tomas-web",
-    tecnologias: ["HTML", "CSS", "JavaScript", "React", "Tailwind", "ViteJS"],
+    tecnologias: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
   },
   {
     nameKey: "Web Noticias AI",
@@ -81,8 +99,10 @@ const Proyectos = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="proyectos">
-      <h2 className="text-center font-bold text-3xl my-12 text-[#CCD6F6]">
+    <section
+      id="proyectos"
+      className="animate-fade-up">
+      <h2 className="text-center font-bold text-3xl my-12 text-[#CCD6F6] ">
         {t("tituloProyectos")}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 max-w-[1200px] min-w-[200px] mx-auto">

@@ -8,7 +8,8 @@ const MainContainer = () => {
   return (
     <div
       id="inicio"
-      className="[&>p]:px-10 [&>p]:py-4 py-8 flex justify-center text-left flex-col w-[100%] max-w-[600px] mx-auto text-[#CCD6F6] scroll-mt-20">
+      className="[&>p]:px-10 [&>p]:py-4 py-8 flex justify-center text-left flex-col w-[100%] max-w-[600px] mx-auto text-[#CCD6F6] scroll-mt-20 animate-fade-up animate-ease-in-out
+">
       <div className="flex justify-center flex-col space-x-4 text-center sm:flex-row ">
         <div className="flex justify-center flex-col">
           <p className="text-xl">{t("nombre")}</p>
@@ -26,7 +27,6 @@ const MainContainer = () => {
               Alcora, España
             </p>
             <img
-              loading="lazy"
               className="rounded-full object-cover object-center w-[250px] h-[250px] mx-auto shadow-xl shadow-[#8993b029] border-4 border-[#CCD6F6] hover:opacity-30 transition-all duration-300 z-10"
               src="large-joan.webp"
               alt="Imagen de perfil Joan Tomás"
@@ -52,7 +52,6 @@ const MainContainer = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
-                  loading="lazy"
                   src={logo.src}
                   alt={logo.alt}
                   title={logo.title}

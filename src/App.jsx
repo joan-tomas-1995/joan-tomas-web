@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import Header from "./Components/Header";
 import MainContainer from "./Components/MainContainer";
 import Proyectos from "./Components/Proyectos";
